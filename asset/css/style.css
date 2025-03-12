@@ -19,14 +19,13 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 body {
     background-color: #afc7cd ;
     color: #333;
     line-height: 1.6;
-    overflow-x: hidden;
+    
 }
 
 
