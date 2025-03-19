@@ -22,7 +22,7 @@ window.addEventListener("scroll", function () {
 
 
 //Animasi teks class "Sub-Judul"
-const text = "Sekolah Dengan Segudang Pestasi Yang Memiliki Tenaga Pendidik Profesional!";
+const text = "'Sekolah Dengan Segudang Pestasi Yang Memiliki Tenaga Pendidik Profesional!'";
 const container = document.querySelector(".sub-judul");
 let i = 0;
 
@@ -34,6 +34,6 @@ function typeText() {
     } else {
         container.style.borderRight = "none"; // Hapus kursor setelah selesai
     }
-}
+}  
 
 typeText();

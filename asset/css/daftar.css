@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-
-
 .head {
-    text-align: center;
-    padding-top: 100px;
-    font-size: 3rem;
-    font-family: "Merriweather Sans";
-    font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 3rem;
+  font-family: "Merriweather Sans";
+  font-weight: bold;
+  color: #000;
 }
+
 .head::after {
-  content: "";
-  display: block;
-  width: 300px;
-  height: 2px;
-  border-radius: 5px;
-  background-color: #000;
-  margin: 2px auto;
-  margin-bottom: 10px;
+content: "";
+display: block;
+width: 300px;
+height: 2px;
+border-radius: 5px;
+background-color: #000;
+margin: 2px auto;
+margin-bottom: 10px;
 }
 
 .form {
@@ -103,4 +105,79 @@ button:hover {
 button:active {
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em;
+}
+
+/*CHAT TO DISCORD*/
+.chat-dc {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chat-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 1000px;
+  height: 130px;
+  color: black;
+}
+
+.chat-text h2 {
+  margin: 0;
+  font-size: 1.7rem;
+  font-family: "Candal";
+}
+
+.chat-text hr {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin: 10px 0;
+}
+
+.chat-text p {
+  margin: 5px 0 0;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+
+.chat-button button {
+  padding: 10px 20px;
+  background-color: #fbca1f;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.chat-button button:hover {
+  background-color: #7D0A0A;
+  transform: scale(1.1);
+}
+.chat-button button:active {
+  background-color: #FFEB00 ;
+}
+
+@media screen and (max-width: 790px) {
+  .head {
+    font-size: 2.8rem;
+  }
+  .chat-text h2 {
+    font-size: 1rem;
+  }
+  .chat-text p {
+    font-size: 15px;
+  }
 }

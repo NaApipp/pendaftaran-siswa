@@ -1,0 +1,93 @@
+.form {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center;
+    padding-top: 90px;
+}
+
+.login {
+    justify-content: center;
+    width: 680px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+
+.hader {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  .hader p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #706b6b;
+  }
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: center;
+  }
+  form input {
+    height: 40px;
+    outline: none;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    width: max-content;
+    justify-self: center;
+  }
+  form input[type="button"] {
+    background-color: rgba(17, 17, 226, 0.562);
+    color: #ffffff;
+    font-size: 17px;
+  }
+  form span {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #706b6b;
+  }
+  form span a {
+    text-decoration: none;
+    color: rgba(36, 36, 207, 0.671);
+    font-weight: 500;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+button  {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+button btn:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}

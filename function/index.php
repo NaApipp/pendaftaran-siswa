@@ -17,5 +17,5 @@ if(!$result){
 } else {
     echo "data berhasil dimasukkan ke database";
 }
-header("location: index.html"); 
+header("location: ../index.html"); 
 ?>

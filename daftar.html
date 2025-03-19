@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Daftar</title>
-
-    <!--Link To Daftar CSS-->
-    <link rel="stylesheet" href="asset/css/daftar.css">
+    <title>SMKN 4 Kendal | Form Daftar</title>
 
     <!--Link To Default CSS-->
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset\css\style.css">
+
+    <!--Link To Daftar CSS-->
+    <link rel="stylesheet" href="asset\css\daftar.css">
 
     <!--Link To Icon Favicon-->
     <link rel="shortcut icon" href="asset/image/logo/logo skanipret.png" type="image/x-icon">
@@ -18,30 +18,31 @@
 </head>
 <body>
 
-
+    <!-- NAVBAR START -->
     <nav>
         <div class="logo">
           <a href="#home"><img src="asset/image/logo/logo skanipret.png" alt="logo" /></a>
           <a href="#home" style="text-decoration: none;"><h1>SMKN 4 KENDAL</h1></a>
         </div>
         <ul>
+          
           <li>
-            <a class="scroll-page" href="#">Identity</a>
+            <a class="scroll-page" href="index.html#home">Home</a>
           </li>
           <li>
-            <a class="scroll-page" href="#gallery">Resume</a>
+            <a class="scroll-page" href="index.html#sejarah">Sejarah</a>
           </li>
           <li>
-            <a class="scroll-page" href="#Achivement">Achivement</a>
+            <a class="scroll-page" href="index.html#berita">Berita Skanifo</a>
           </li>
           <li>
-            <a class="scroll-page" href="#skill">My Skill</a>
+            <a class="scroll-page" href="index.html#prestasi">Prestasi</a>
           </li>
           <li>
-            <a class="scroll-page" href="#Project">My Project</a>
+            <a class="scroll-page" href="index.html#gallery">Gallery</a>
           </li>
           <li>
-            <a class="contact" href="daftar.html" target="_blank">Dafar!!</a>
+            <a class="contact" href="daftar.html">Daftar!!</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -52,30 +53,33 @@
       </nav>
       <div class="menubar">
         <ul>
+          
           <li>
-            <a class="scroll-page" href="#identity">Identity</a>
+            <a class="scroll-page" href="index.html#home">Home</a>
           </li>
           <li>
-            <a class="scroll-page" href="#Resume">Resume</a>
+            <a class="scroll-page" href="index.html#sejarah">Sejarah</a>
           </li>
           <li>
-            <a class="scroll-page" href="#Achivement">Achivement</a>
+            <a class="scroll-page" href="index.html#berita">Berita Skanifo</a>
           </li>
           <li>
-            <a class="scroll-page" href="#skill">My Skill</a>
+            <a class="scroll-page" href="index.html#prestasi">Prestasi</a>
           </li>
           <li>
-            <a class="scroll-page" href="#Project">My Project</a>
+            <a class="scroll-page" href="index.html#gallery">Gallery</a>
           </li>
           <li>
-            <a class="contact" href="contact.html" target="_blank">Daftar!!</a>
+            <a class="contact" href="daftar.html">Daftar!!</a>
           </li>
         </ul>
       </div>
+      <!-- NAVBAR ENDS -->
 
-      
-    <p class="head">Form Daftar Siswa</p>
+      <!-- HEADLINE / TAGLINE -->
+      <p class="head">Form Daftar Siswa</p>
 
+      <!-- Section FORM -->
     <section id="form">
     <div class="form">
 <div class="login">
@@ -83,7 +87,7 @@
       <span style="padding-top: px;">Daftarkan Diri Anda di Form Ini</span>
       <p>Untuk Siswa Baru</p>
     </div>
-    <form action="index.php" method="POST">
+    <form action="function\index.php" method="POST">
       <input name="nama" type="text" placeholder="Masukkan Nama Lengkap" required>
       <input name="alamat" type="text" placeholder="Masukkan Alamat Sesuai Kartu Identitas" required>
       <input name="jenis_kelamin" type="text" placeholder="Jenis Kelamin" required>
@@ -95,11 +99,32 @@
 </div>
 </section>
 
+
+<!-- Connect To Table list Siswa -->
+<div class="chat-dc">
+  <div class="chat-container">
+    <div class="chat-text">
+      <h2>Ingin lihat daftar siswa?</h2>
+      <hr />
+      <p>menekan tombol di samping untuk melihat list siswa</p>
+    </div>
+    <div class="chat-button">
+      <a href="list-siswa.php" target="_blank"><button onclick="redirectToDiscord()">Lihat Di Sini</button></a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
 <footer>
   <p>
     &copy; 2025 GDG Semarang Team. All Rights Reserved.<br />
     Powered by <a class="credits" href="https://superappsporto.vercel.app/" target="_blank">SuperApps</a>
   </p>
 </footer>
+
+
+<!-- Link To JavaScript -->
+<script src="asset\JavaScript\script.js"></script>
 </body>
 </html>
