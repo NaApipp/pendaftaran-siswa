@@ -24,4 +24,5 @@ Link Website Official: https://smkn4kendal.sch.id/
 ![App Screenshot](https://github.com/NaApipp/pendaftaran-siswa/blob/9057112f276995211691821fa777c6e95454c73e/display%20uiux/4.png)
 
 ## Website Re-Design
-Link Re-Design Website: http://apipppp0.free.nf/index.html
+Link Re-Design Website: http://apipppp0.free.nf/index.html & https://pendaftaran-siswa-xi.vercel.app/
+
